@@ -10,6 +10,7 @@ export default function Googlbusiness() {
     useEffect(()=>{
         document.title="Websuss || GoogleBusiness";
       },[])
+      // google business path component
   return (
     <div className='google-business'>
         <Universaldropcontrol

@@ -52,7 +52,7 @@ import Plus from './components/mainComp/Plus';
 import Superadmin from './components/mainComp/Superadmin';
 import Getques from './components/mainComp/Getques';
 function App() {
-const stripePromise = loadStripe('pk_live_RQHG9tFepmWCQ6rtPMPSZ5n4');
+const stripePromise = loadStripe('use env');
 const user = Cookies.getItem('websussUser')
 
 
