@@ -1,0 +1,49 @@
+.social-media>div{
+    padding: 5vw 8vw;
+}
+.social-media>div>div{
+    padding: 50px 0px;
+}
+.social-media>div:first-child{
+    padding:  5vw;
+}
+.social-media>div:last-child{
+    padding: 0px;
+}
+/* .social-flex{
+    flex: 1;
+} */
+@media only screen and (min-width: 1400px){
+    .social-media>div:first-child{
+        padding:80px;
+    }
+    .bbheight1{
+        width: 605px !important;
+        height: 455px !important;
+    }
+    .bbheight2{
+        width: 605px !important;
+        height: 380px !important;
+    }
+    .bbheight3{
+        width:  605px !important;
+        height: 370px !important;
+    }
+    .bbheight4{
+        width:  605px !important;
+        height: 450px !important;
+
+    }
+    .bbheight5{
+        width:  605px !important;
+        height: 420px !important;
+
+    }
+    .bbheight6{
+        width:  605px !important;
+        height: 390px !important
+    }
+    .social-media .flex-bas{
+        flex-basis: 40%;
+    }
+}

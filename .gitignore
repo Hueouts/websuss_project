@@ -1,0 +1,14 @@
+node_modules/
+build/
+package-lock.json
+.env
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.webp
+*.ico

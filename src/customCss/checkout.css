@@ -1,0 +1,158 @@
+.checkout{
+    color: #003049;
+    padding: 30px 5vw;
+}
+.checkout input,.checkout select{
+    border:2px solid #003049;
+    padding: 12px;
+    outline: none;
+}
+.checkout input:focus{
+    border: 2px dotted #003049;
+}
+
+/*  */
+.checkout-card-details{
+    flex-basis: 40%;
+    border: 2px solid #000;
+    padding: 28px 19px;
+    
+    align-self: flex-start;
+    /* flex: 1; */
+}
+.checkout-card-details h3{
+    text-align: center;
+}
+.checkout-card-table table{
+    width: 100%;
+    font-size: 12px;
+}
+.checkout-card-table table tr th{
+    text-align: left;
+}
+.strip-form{
+    justify-content: space-around;
+}
+.checkout-card-table table tr th,.checkout-card-table table tr td{
+    padding: 5px;
+}
+.strip label span, .checkout-billing-detail label>span{
+    color: #FF0000;
+}
+.strip{
+    position: relative;
+    background-color: #fff;
+    /* padding:0px 20px; */
+    margin: 5px 0px ;
+}
+.strip .fa-caret-up{
+    position: absolute;
+    font-size: 29px;
+    top: 0;
+    left: 10px;
+    color: #efefef;
+    transform: translateY(-55%);
+}
+.card-num{
+    align-self: flex-start;
+    padding: 20px 0px;
+}
+.card-num input{
+    width: 29dvw;
+    padding: 5px;
+}
+.stip-exp input{
+    padding: 5px;
+}
+.stip-exp{
+    width: 100%;
+    justify-content: space-between;
+}
+.strip-check{
+    margin: 20px 0px;
+    padding: 5px 20px;
+    border: 1px solid #b6b5b5;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 13.5px;
+    font-size: .9rem;
+    font-family: 'Poppins';
+    text-align: left;
+    text-transform: capitalize;
+    color: #003049;
+}
+#check{
+    margin: 0px 15px 0px 0px;
+}
+.checkout-card-strip p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px  ;
+}
+.cart-place {
+    text-align: center;
+}
+.cart-place button{
+    background-color: #FF0000;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    width: 100%;
+}
+.checkout-billing-detail{
+    justify-self: flex-start;
+    align-self: flex-start;
+    /* border: 2px solid #000; */
+    padding: 5px 19px;
+    width: 60%;
+    margin: 0px 20px;
+
+}
+.checkout-billing-detail h3{
+ border-bottom: 1px solid #FF0000;
+ padding: 20px 0px;
+ margin-bottom: 10px;
+}
+.billing-detail-name{
+ justify-content: space-between;
+ margin: 10px 0px;
+}
+.billing-detail-name >div input{
+    padding: 12px;
+    width: 22dvw;
+}
+.detail-form-select select,.billing-detail-input input{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+}
+.billing-detail-form form>div{
+    margin: 10px 0px;
+}
+.additional-info input{
+    padding: 10px;
+    height: 64px;
+}
+@media only screen and (max-width:891px){
+    .checkout-card-details {
+        flex-basis: 90%;
+    }
+    .checkout-billing-detail{
+        flex-basis: 100%;
+    }
+    .billing-detail-name >div input {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:520px){
+    .billing-detail-name >div input {
+        width: 190%;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .checkout-card-details{
+        flex-basis: 30%;
+    }
+}

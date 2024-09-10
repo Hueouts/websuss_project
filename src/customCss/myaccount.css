@@ -1,0 +1,630 @@
+.my-account-main {
+    padding: 30px 0px;
+}
+
+.my-account-control {
+    width: 90vw;
+    max-height: 90vw;
+    border: 2px solid #000;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.my-account-control-panner {
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #eef1f3;
+}
+
+.my-account-control-list {
+    flex-basis: 20%;
+    border: 1px solid #eef1f3;
+
+}
+
+.account-greet {
+    padding: 20px 10px 20px 24px;
+    justify-content: flex-start;
+    border-bottom: 1px solid #eef1f3;
+}
+
+.account-greet span {
+    color: #8B8B8B;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.account-greet h5 {
+    font-size: 16px;
+    text-transform: capitalize;
+    transform: translateY(-15%);
+}
+
+.account-profile {
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.account-profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-account-control-list ul>li {
+    padding: 16px 24px;
+    border-bottom: 1px solid #eef1f3;
+    font-size: 14px;
+    font-weight: 500;
+    color: #003049;
+    cursor: pointer;
+}
+
+.my-account-control-list ul>li button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.my-account-control-list ul>li:hover {
+    border-left: 2px solid #000;
+}
+
+.dashboard p {
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.dashboard button {
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: transparent;
+    color: #b00303;
+    border-bottom: 2px solid #b00303;
+}
+
+.my-account-control-content {
+    border: 1px solid #eef1f3;
+    padding: 50px 30px;
+    flex-basis: 80%;
+}
+
+.dashboard-p {
+    margin-bottom: 21px;
+}
+
+.my-account-order,
+.payment,
+.subscription,
+.subs-table2,
+.subs-table {
+    border: 1px solid #eef1f3;
+    border-radius: 10px;
+}
+
+.my-account-order>div,
+.payment>div,
+.subscription>div {
+    justify-content: space-between;
+    padding: 20px;
+    gap: 8px;
+    font-weight: 600;
+    color: #1a1a21;
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: capitalize;
+}
+
+.my-account-order>div i,
+.payment>div i {
+    color: #787c8a;
+    margin: 0px 5px;
+}
+
+.subscription>div p {
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.my-account-order a {
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    background: #003049;
+    padding: 10px 20px;
+}
+
+.updated-message {
+    border: 1px solid #eef1f3;
+    border-radius: 10px;
+    padding: 2px 12px 2px 50px;
+    position: relative;
+    text-align: center;
+    min-height: 64px;
+    line-height: 1.7;
+    width: 95%;
+}
+
+.updated-message p {
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.updated-message i {
+    position: absolute;
+    transform: translateY(-155%);
+    color: #046bd2;
+    font-size: 20px;
+}
+.posg{
+    position: relative;
+    min-height: 50px;
+}
+.gen{
+    position: absolute;
+    font-size: 15px;
+    right: 20px;
+    top:5px;
+    background-color: #D62A29;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+
+}
+.reset-account label {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-transform: capitalize;
+    color: #003049;
+}
+
+.reset-account label>span {
+    color: #ff1d1d;
+    font-size: 16px;
+}
+
+.reset-name {
+    justify-content: space-between;
+}
+
+.reset-name>div {
+    flex-basis: 50%;
+}
+
+.reset-account input {
+    outline: none;
+    border: 1px solid #e2edf0;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 44px;
+    color: #667085;
+}
+
+.reset-account input:focus {
+    border: 1.5px dotted #7f8384;
+}
+
+.reset-name>div input {
+    width: 90%;
+    padding: 2px 15px;
+}
+
+.reset-display-name input,
+.reset-email input,
+.reset-password input {
+    width: 95%;
+    padding: 2px 15px;
+}
+
+.reset-display-name p {
+    text-align: center;
+    color: #667085;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42;
+    font-style: normal;
+}
+
+.reset-current-pass>div,
+.reset-new-pass>div,
+.reset-confirm-pass>div {
+    position: relative;
+    width: 100%;
+}
+
+.reset-current-pass,
+.reset-new-pass,
+.reset-confirm-pass {
+    margin-bottom: 32px;
+}
+
+.reset-current-pass>div .i,
+.reset-new-pass>div .i,
+.reset-confirm-pass>div .i {
+    position: absolute;
+    transform: translate(-300%, -140%);
+    right: 0;
+}
+
+.reset-form>div {
+    margin-bottom: 32px;
+}
+
+.reset-password legend {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    color: #003049;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.new-pass-warn {
+    text-align: center;
+}
+
+.new-pass-warn-p1 {
+    text-align: center;
+    background-color: #f1adad;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: 600;
+    color: #667085;
+    width: 95%;
+}
+
+.new-pass-warn-p11 {
+    background-color: #fbc5a9;
+}
+
+.new-pass-warn-p111 {
+    background-color: #ffe399;
+}
+
+.new-pass-warn-p1V {
+    background-color: #c1e1b9;
+}
+
+.new-pass-warn-p2 {
+    font-size: 11.2px;
+    margin: 0.5em 0 0;
+    color: #667085;
+    font-weight: 300;
+    line-height: 1.42;
+    padding: 0px 5px;
+    width: 95%;
+}
+
+.reset-submit-btn {
+    text-align: center;
+}
+
+.reset-submit-btn button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4.3px;
+    color: #FFFFFF;
+    background: #003049;
+    border-radius: 5px;
+    padding: 16px 32px;
+    border: none;
+}
+
+.dsg {
+    color: #00304e;
+    font-weight: 500;
+    text-align: center;
+    transform: translateY(-65%);
+    border-bottom: 1px solid #eef1f3;
+    padding-bottom: 20px;
+}
+
+.dp-table {
+    max-width: 65vw;
+    overflow-y: hidden;
+    overflow-x: auto;
+  
+}
+
+.dp-table table {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.dp-table table th {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.dp-table table td {
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.tb-temp {
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tb-temp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dp-table2,
+.subs-table2 {
+    display: none;
+}
+
+.subs-table {
+    display: block;
+    font-size: 13.33px;
+    text-align: left;
+}
+
+.subs-table table th,
+.subs-table table td {
+    padding: 5px 10px;
+}
+
+.subs-table table th {
+    font-weight: 700;
+    line-height: 13px;
+}
+
+.subs-table table td {
+    font-weight: 400;
+}
+
+.subs-table table,
+.dp-table table,
+.dp-table td,
+.subs-table td,
+.dp-table th,
+.subs-table th {
+    border-collapse: collapse;
+}
+.tb-temp a{
+    padding: 0;
+    background-color: transparent;
+}
+
+
+.cbj-emi {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.wrat {
+    display: block;
+    max-width: 18vw;
+    word-wrap: break-word;
+}
+#pdfContent table{
+    display: block;
+    width: 100%;
+}
+#pdfContent #tbimg{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+#pdfContent #tbimg img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#bh{
+    text-align: center;
+    margin: 40px 0px;
+}
+#pdfContent #table tr{
+    text-align: left;
+    border-bottom: 1px solid #000;
+
+}
+#pdfContent h5{
+    margin: 5px 0px;
+}
+#pdfContent #table th{
+    font-size: 14px;
+}
+#pdfContent #table td{
+    font-size: 12px;
+}
+#pdfContent #table td,#pdfContent #table th{
+    padding: 5px ;
+    margin: 5px;
+}
+#pdfContent table th{
+    width: auto;
+}
+#dpTable2{
+    text-align: left;
+    width: 100%;
+}
+#dpTable2 table{
+    padding: 10px;
+}
+#dpTable2  th{
+    padding: 15px 0px;
+    /* border-bottom:1px solid #000; */
+
+}
+#dpTable2 table th{
+    line-height: 18px;
+    /* font-size: 12px; */
+    padding: 5px;
+}
+#dpTable2 table td{
+/* font-size: 12px; */
+padding: 5px;
+}
+#flx-re{
+    display: flex;
+}
+#tdSumLogo{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#tdSumLogo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#tec{
+    width: 100px;
+    height: 100px;
+    overflow: hidden !important;
+}
+#ich{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.o-id{
+    display: block;
+    max-width: 140px;
+    word-wrap: break-word;
+}
+@media only screen and (min-width: 1400px) {
+
+    .reset-current-pass>div .i,
+    .reset-new-pass>div .i,
+    .reset-confirm-pass>div .i {
+        transform: translate(-420%, -140%);
+    }
+    .o-id{
+        display: inherit;
+    }
+
+}
+
+@media only screen and (max-width: 891px) {
+    .my-account-control-list {
+        flex-basis: 35%;
+    }
+
+    .my-account-control-content {
+        flex-basis: 65%;
+    }
+
+    .my-account-control {
+        max-height: 350vw;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .my-account-control-list {
+        flex-basis: 100%;
+    }
+
+    .my-account-control-content {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+
+    .dp-table,
+    .subs-table {
+        display: none;
+    }
+
+    .dp-table2,
+    .subs-table2 {
+        display: block;
+    }
+
+    .dp-table2 table,
+    .subs-table2 table {
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+    .dp-table2 table tr,
+    .subs-table2 table tr {
+        display: flex;
+    }
+
+    .subs-table2 table th,
+    .dp-table2 table th {
+        width: 40%;
+    }
+
+    .subs-table2 table td,
+    .dp-table2 table td {
+        width: 60%;
+        word-wrap: break-word;
+
+    }
+
+    .dp-table2 table th,
+    .subs-table2 table th {
+        border-bottom: 1px solid #eef1f3;
+        font-weight: 700;
+    }
+
+    .dp-table2 table td,
+    .subs-table2 table td {
+        word-wrap: break-word;
+        font-weight: 400;
+    }
+
+    .dp-table2 table th,
+    .dp-table2 table td,
+    .subs-table2 table th,
+    .subs-table2 table td {
+        padding: 10px 20px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .dp-table2,
+    .subs-table2 {
+        width: 60vw;
+        overflow: hidden;
+    }
+
+    .my-account-control-content {
+        padding: 50px 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .my-account-control {
+        padding: 60px 30px;
+    }
+    .gen{
+        font-size: 13.4px;
+    }
+}

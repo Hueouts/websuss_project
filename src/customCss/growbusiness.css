@@ -1,0 +1,47 @@
+.grow-business>div{
+    padding: 5vw 6vw;
+}
+.grow-business li{
+    padding:5px 0px;
+}
+.grow-business h2{
+    font-size: 40px;
+    line-height: 38px;
+}
+.grow-business>div>div{
+    padding: 50px 0px;
+}
+.ads-manager{
+  width: 500px;
+}
+/* .ads-manager-flex{
+    flex: 1;
+} */
+.grow-business>div:first-child{
+    padding:  5vw;
+}
+.grow-business>div:last-child{
+    padding: 0px;
+}
+
+
+@media only screen and (min-width: 1400px){
+    .grow-business>div:first-child{
+        padding: 80px;
+    }
+.bbbheight1{
+    width: 600px !important;
+    height: 415px !important;
+}
+.bbbheight2{
+    width: 614px !important;
+    height: 424px !important;
+}
+.bbbheight3{
+    width: 614px !important;
+    height: 403px !important;
+}
+.grow-business .flex-basis{
+    flex-basis: 40%;
+}
+}

@@ -1,0 +1,32 @@
+.sell-product>div{
+    padding: 5vw 6vw;
+}
+.sell-product>div:first-child{
+    padding:  5vw;
+}
+.sell-product>div:last-child{
+    padding: 0px;
+}
+.sell-product>div>div{
+    padding: 40px 0px;
+}
+.sell-product .bwidth{
+    width: 600px;
+}
+.universal{
+    width: 60vw;
+}
+@media only screen and (min-width: 1400px){
+    .sell-product>div:first-child{
+        padding:  80px;
+    }
+    .bheight1{
+        height: 391px !important;
+    }
+    .bheight2{
+        height: 418px !important;
+    }
+    .bheight3{
+        height: 396px !important;
+    }
+}

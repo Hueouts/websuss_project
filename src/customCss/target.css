@@ -1,0 +1,26 @@
+.target-adv>div{
+    padding: 5vw 6vw;
+}
+.target-adv>div>div{
+    padding: 50px 0px;
+}
+.target-adv>div:first-child{
+    padding:  5vw;
+}
+.target-adv>div:last-child{
+    padding: 0px;
+}
+.target-adv p{
+    padding: 10px 0px;
+}
+.grow{
+    align-self: flex-start;
+}
+@media only screen and (min-width: 1400px){
+    .target-adv .flex-bas{
+        flex-basis: 40%;
+    }
+    .target-adv>div:first-child{
+        padding: 80px;
+    }
+}

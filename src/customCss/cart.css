@@ -1,0 +1,111 @@
+.cart {
+    padding: 20px 10vw;
+}
+
+.cd-h>a,
+.cd-a>a,
+.cd-p>a,
+.cd-we>a,
+.cd-sus>a,
+.cd-pr>a,
+.cd-my {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #003049;
+    font-weight: 600;
+}
+
+.cart-heading h2 {
+    font-size: 2rem;
+    color: #003049;
+}
+
+.cart-table table {
+    width: 100%;
+    text-align: left;
+}
+
+.cart-table table thead {
+    width: 100%;
+}
+
+.cart table {
+    margin: 20px 0px;
+    border: 2px solid #000;
+
+    font-size: 12px;
+    border-spacing: 0;
+}
+
+.cart table thead {
+    background-color: #FBFBFB;
+}
+
+.cart table thead tr th,
+.cart table tbody tr td {
+    padding: 10px 12px;
+
+    border-bottom: 1px solid #ADB6BE;
+    border-collapse: collapse;
+}
+
+.cart table tr {}
+
+.cart-coupn-code input {
+    outline: none;
+    border: 2px solid #000;
+    padding: 6px 6px 5px;
+}
+
+.cart-coupn-code input:focus {
+    border: 2px dotted #000;
+}
+
+.cart-coupn button,
+.cart-table2 button {
+    border: none;
+    background-color: #D62A29;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+.cart-coupn button:nth-child(1) {
+    cursor: not-allowed;
+    background-color: #f96e6e;
+}
+
+.cart-table2-out {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-table2 table {
+    width: 40vw;
+}
+
+.cart-table2 table button {
+    padding: 10px 7vw;
+    text-align: center;
+}
+
+.cross-btt {
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.proceed-check {
+    text-align: center;
+}
+
+@media only screen and (max-width: 820px) {
+
+    .cart-coupn button,
+    .cart-table2 button {
+        font-size: 0.8rem;
+    }
+
+    .cart {
+        padding: 20px 3vw;
+    }
+}

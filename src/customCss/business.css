@@ -1,0 +1,33 @@
+.google-business>div{
+    padding: 5vw 8vw;
+}
+.google-business>div:first-child{
+    padding:  5vw;
+}
+.google-business>div:last-child{
+    padding: 0px;
+}
+.google-business .flx-universal-right1 p{
+    font-size: 17px;
+    font-weight: 400;
+    width: 500px;
+}
+.bwidth{
+}
+.bheight{ 
+    height: 400px;
+}
+.google-business .flx-universal-right-img{
+    padding: 0px 10px;
+    flex-basis: max-content;
+    width: 540px !important;
+}
+.google-business .flx-universal-right{
+    padding: 50px 0px;
+}
+@media only screen and (min-width: 1400px){
+    .google-business>div:first-child{
+        padding:  80px;
+    }
+
+}

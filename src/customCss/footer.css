@@ -1,0 +1,128 @@
+footer{
+    background-color: #003049;
+    color: #fff;
+}
+footer ul>li,.footer-input{
+    margin: 20px 0px;
+}
+.footer-container{
+    padding: 50px 50px 0vw;
+}
+.footer-img{
+    width: 20vw;
+}
+.footer-img img{
+    width: 100%;
+}
+.footer-content{
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+.footer-description{
+    font-size: 15px;
+    width: 412px;
+    margin: 10px 0px;
+}
+.footer-right{
+    padding: 20px 0px;
+}
+.social-media-links div i{
+
+  color: #003049;
+}
+.social-media-links{
+    margin: 10px 0px;
+    justify-content:flex-start ;
+}
+.social-media-links div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+}
+.footer-info{
+    flex-basis: 25%;
+}
+.footer-newsletter{
+    flex-basis: 30%;
+}
+.footer-links{
+    flex-basis: 30%;
+
+}
+.footer-links>div{
+    flex-basis: 50%;
+}
+.footer-input input{
+    padding: 13px ;
+    outline: none;
+}
+.footer-input button{
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: none;
+    margin: 0px 10px;
+
+}
+.footer-container p:last-child{
+    text-align: left;
+    /* font-size: 15px; */
+    font-weight: 400;
+}
+@media only screen and (max-width: 1100px){
+    
+    .footer-links{
+        align-items: flex-start;
+    }
+    .footer-links{
+        justify-content: space-around;
+    } 
+    .footer-description{
+        width: auto;
+    }
+.footer-links>div{
+  flex-basis: auto;
+}
+    .footer-newsletter{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 820px) {
+    .footer-content{
+        justify-content: space-around;
+      }
+      
+    .footer-newsletter{
+        text-align: center ;
+    }
+      .footer-content>div{
+        margin: 20px 0px;
+       flex-basis: 100%;
+      }
+}
+@media only screen and (max-width:680px){
+    .footer-img{
+        width: 55%;
+    }
+    .footer-description {
+        width: 100%;
+    }
+    .footer-links{
+        align-items: flex-start;
+    }
+    .footer-input input{
+        padding: 5px 7px;
+    }
+    .footer-input button {
+        padding: 8px 12px;
+    font-size: 13px;
+    }
+    .footer-newslette{
+        text-align: center;
+    }
+}

@@ -1,0 +1,76 @@
+.pricing-question {
+    padding: 30px 80px;
+}
+
+.pricing-question h2 {
+    font-size: 5rem;
+}
+
+.pricing-table {
+    text-align: center;
+    color: #003049;
+}
+.pricing-table {
+    border: 1px solid #EFF0F3;
+    border-radius: 50px;
+    /* overflow: hidden; */
+}
+.pricing-table table{
+    background-color:#EFF0F3;
+    width: 100%;
+}
+.table-head{
+    position: sticky;
+    background-color: #fff;
+    top: 90px;
+}
+.pricing-table th{
+    padding: 20px;
+}
+.pricing-table th,.pricing-table tr{
+    background-color: #fff;
+    
+}
+.td{
+    padding: 20px;
+}
+
+.pricing-table td:first-child{
+    text-align: left;
+    width: 45%;
+}
+.btn-row a{
+color: #D62A29 !important;
+}
+.btn-row a:hover{
+    color: #fff !important;
+}
+.pricing-table a {
+    text-decoration: none;
+    color: #003049;
+}
+
+.table-link{
+    background-color: #EFF0F3;
+    padding: 20px;
+}
+.table-link a>span>span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.table-link span{
+   
+    font-weight: normal;
+}
+.p-rice .pricing-link {
+    font-size: 16px;
+}
+.td> .fa-solid{
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media only screen and (min-width: 1400px){
+    .p-rice-table{
+        padding: 80px;
+    }
+}

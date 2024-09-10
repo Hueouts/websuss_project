@@ -1,0 +1,223 @@
+.weblaunch {
+    color: #003049;
+}
+
+.weblaunch>div {
+    padding: 5vw 6vw;
+}
+
+.weblaunch>div:last-child{
+    padding: 0;
+}
+.weblaunch p {
+    font-size: 16px;
+}
+
+.weblaunch>div>h2 {
+    text-align: center;
+    color: #D62828;
+    font-weight: 400;
+}
+
+.website-checklist1 {
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.website-checklist1 h1 {
+    color: #003049;
+    font-size: 3rem;
+    line-height: 52px;
+}
+.weblaunch>div>div h2{
+    line-height: 52px;
+    margin-bottom: 20px;
+}
+.weblaunch .pricing-link{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding: 5px 50px;
+}
+
+.website-checklist1-img,
+.website-checklist3-img,
+.website-checklist4-img,
+.website-checklist5-img,
+.website-checklist6-img,
+.website-checklist7-img {
+    width: 40vw;
+    height: auto;
+}
+
+.website-checklist1-img img,
+.website-checklist3-img img,
+.website-checklist4-img img,
+.website-checklist5-img img,
+.website-checklist6-img img,
+.website-checklist7-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.website-checklist-launch {
+    font-size: 1.2rem;
+}
+
+.website-checklist-launch ul {
+    margin: 20px 0px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.website-checklist-launch ul>li::before {
+    content: "\2713";
+    margin: 5px;
+    font-weight: bold;
+    color: #D62828;
+}
+
+
+
+.website-checklist3,
+.website-checklist6 {
+    flex-direction: row-reverse;
+    padding: 80px 80px 80px 10px;
+}
+
+.website-checklist2,
+.website-checklist4,
+.website-checklist5,
+.website-checklist6,
+.website-checklist7 {
+    padding: 30px 0px;
+}
+
+.website-checklist2-launch,
+.website-checklist3-launch,
+.website-checklist4-launch,
+.website-checklist5-launch,
+.website-checklist6-launch,
+.website-checklist7-launch {
+    flex-basis: 40vw;
+    /* flex-grow: 1; */
+}
+
+.website-checklist3-img,
+.website-checklist6-img {
+    margin-right: 2vw;
+    /* flex-basis: 40vw; */
+    align-self: flex-start;
+    padding-right: 40px;
+
+}
+
+.website-checklist2>div {
+    margin: 5px;
+}
+
+.website-icon {
+    width: 216px;
+    height: 216px;
+}
+
+.website-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.website-service {
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.website-service>div {
+    flex-basis: 25vw;
+
+}
+
+.website-service>div:hover {
+    transform: scale(1.1, 1.2);
+}
+
+.weblaunch-anchor {
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 30px 1%;
+    width: 98%;
+    height: 30vw;
+}
+
+.weblaunch-anchor img {
+    width: 100%;
+    height: 100%;
+}
+/* commit */
+.website-checklist1,
+.website-checklist2,
+.website-checklist3,
+.website-checklist4,
+.website-checklist5,
+.website-checklist6,
+.website-checklist7 {
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 1400px) {
+    .basis {
+        flex-basis: 40%;
+    }
+
+    .website-checklist1-img {
+        width: 596px;
+        height: 405px;
+    }
+
+    .website-checklist2-img {
+        width: 614px;
+        height: 392px;
+    }
+
+    .website-checklist3-img {
+        width: 615px;
+        height: 420px;
+    }
+
+    .website-checklist4-img {
+        width: 615px;
+        height: 392px;
+    }
+
+    .website-checklist5-img {
+        width: 623px;
+        height: 474px;
+    }
+
+    .website-checklist6-img {
+        width: 650px;
+        height: 365px;
+    }
+
+    .website-checklist7-img {
+        width: 614px;
+        height: 481px;
+    }
+    .website-service{
+        padding: 80px 100px;
+    }
+    .website-service h2{
+        width:15dvw;
+    }
+    .website-checklist3,
+.website-checklist6 {
+    padding: 50px 40px;
+}
+
+.website-checklist2,
+.website-checklist4,
+.website-checklist5,
+.website-checklist6,
+.website-checklist7 {
+    padding: 50px 40px;
+}
+
+}
